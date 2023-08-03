@@ -69,13 +69,15 @@ export default function App() {
     <div className="container">
       <div className="sidebox-container">
         <div className="inside-box-container">
-          <h1>
-            Lorem ipsum dolor si amet <span>consectetur</span>
-          </h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
+          <div className="inside-box-word">
+            <h1>
+              Lorem ipsum dolor si amet <span>consectetur</span>
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
         </div>
       </div>
       <div className="login-container">
